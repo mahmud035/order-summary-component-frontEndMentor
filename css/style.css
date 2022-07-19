@@ -60,6 +60,10 @@ select {
 
 body {
   font-family: 'Red Hat Display', sans-serif;
+  background-color: var(--pale-blue);
+  background-image: url('../images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Common CSS Classes */
@@ -73,7 +77,7 @@ body {
 .card-container {
   width: 80%;
   height: 90%;
-  background-color: #d6e1ff;
+  /* background-color: #d6e1ff; */
   position: absolute;
   top: 50%;
   left: 50%;
